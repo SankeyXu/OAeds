@@ -1,0 +1,145 @@
+.contentBody{
+	padding: 45px 65px;
+}
+.file{
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 35px;
+}
+.message{
+	position: relative;
+	float: left;
+}
+.title{
+	line-height: 40px;
+	height: 40px;
+	float: left;
+	width: 95px;
+	text-align: left;
+	color: #000000;
+}
+.file .title .imp{
+	color: #E94F48;
+}
+.modFile {
+    line-height: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.modFile img {
+    position: relative;
+    top: 0px;
+    margin-right: 5px;
+    width: 28px;
+}
+.chooseBtn{
+	cursor: pointer;
+    outline: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fef6e1;
+    color: #eab74a;
+    font-size: 16px;
+    border: 1px solid #eab74a;
+    position: relative;
+ 	top: -6px;
+}
+input[type="file"]{
+	cursor: pointer;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    opacity: 0;
+}
+.fileRule{
+	display: inline-block;
+	width: 320px;
+	height: 40px;
+	text-align: center;
+}
+#typeSelect{
+	outline: none;
+	width: 370px;
+	height: 40px;
+	border:1px solid #CCCCCC;
+	border-radius: 5px;
+	padding: 2px 15px;
+	color: #999999;
+	font-size: 14px;
+}
+.down-icon{
+	content: ' ';
+    display: block;
+    width: 0;
+    height: 10px;
+    border-top: 8px solid #666;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    top: 16px;
+    left: 336px;
+}
+.fileImport{
+	outline: none;
+	resize: none;
+	width: 940px;
+	height: 290px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+	color: #999999;
+	line-height: 25px;
+    letter-spacing: 2px;
+}
+#fileTapModel{
+	position: absolute;
+	z-index: 999;
+	top: 39px;
+	left: 0;
+	width: 785px;
+	height: 370px;
+	border: 1px solid #c2d0ff;
+	overflow-y: auto;
+	background-color: #f9faff;
+	display: none;
+	
+}
+#fileTapModel.fileTapModelShow{
+	display: block;
+}
+.modelRow{
+	padding: 20px 0;
+}
+.oneTypeTitle{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	width: 160px;
+    padding: 5px 0;
+}
+.twoTypeTitle{
+	float: left;
+	color: #878787;
+	font-size: 14px;
+	padding: 0 30px;
+	width: 580px;
+}
+.twoTypeTitle span{
+	display: inline-block;
+	cursor: pointer;
+	padding: 5px 14px;
+}
+.twoTypeTitle span:hover{
+	color: #6F8EF5;
+	text-decoration: underline;
+	font-weight: bold;
+	padding:  5px 13px;
+}

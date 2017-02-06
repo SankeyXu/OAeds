@@ -1,0 +1,45 @@
+
+    <link rel="stylesheet" type="text/css" href="css/work-line.css"/>
+    <script src="js/work-line.js"></script>
+        <div class="body-second">
+            <div class="nav-second">
+                <ul>
+                    <li class="active">
+                        <img src="img/icon1.png" title=""/>
+                        <span class="txt">发起工作流</span>
+                        <span class="titleTxt">发起工作流</span>
+                    </li>
+                    <li>
+                        <img src="img/icon2.png" title=""/>
+                        <span class="txt">待办事宜</span>
+                        <span class="titleTxt">待办事宜</span>
+                    </li>
+                    <li>
+                        <img src="img/icon3.png" title=""/>
+                        <span class="txt">已办事宜</span>
+                        <span class="titleTxt">已办事宜</span>
+                    </li>
+                    <li>
+                        <img src="img/icon4.png" title=""/>
+                        <span class="txt">我发起的</span>
+                        <span class="titleTxt">我发起的</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-second">
+                
+            </div>
+        </div>
+        <script id="kendoTemplate_itemStatus" type="text/x-kendo-template">
+            #if(status=='1'){#
+            待审批
+            #}else if(status=='2'){#
+            已审批
+            #}else if(status=='3'){#
+            已拒绝
+            #}#
+        </script>
+        
+	  <script id="kendoTemplate_titleStatus" type="text/x-kendo-template">
+	    <span class="lineHtml" onclick="goTwo()">#=title#</span>
+        </script>

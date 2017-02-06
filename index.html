@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>管理员系统</title>
+	<link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="js/kendoui/styles/kendo.common.min.css"/>
+	<link rel="stylesheet" type="text/css" href="js/kendoui/styles/kendo.bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/kendoSelf.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+
+	<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/kendoui/js/kendo.all.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/kendoui/js/cultures/kendo.culture.zh-CN.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/kendoui/js/messages/kendo.messages.zh-CN.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+<div class="titleBox">
+	<div class="titleLogo">
+		<img src="img/eds.png"/>
+	</div>
+	<div class="userPassword" onclick="userPassword()">
+		<img src="img/change_key.png" alt=""  class="searchImg"/>
+		<span class="colin">
+			修改密码
+		</span>
+	</div>
+	<div class="userOut" onclick="userOut()">
+		<img src="img/exit.png" alt=""  class="searchImg"/>
+		<span class="colin">
+			退出登录
+		</span>
+	</div>
+</div>
+<div class="body">
+	<div class="nav">
+		<div class="user">
+			<div class="userPic"></div>
+			<p class="userName">Kevin</p>
+		</div>
+		<ul>
+			<li class="active">
+				<span class="img icon-library"><img src="img/home_click.png"/></span>
+				<span class="txt">首页</span>
+				<span class="titleTxt">首页</span>
+			</li>
+			<li>
+				<span class="img icon-approve"><img src="img/approve.png"/></span>
+				<span class="txt">工作流</span>
+				<span class="titleTxt">工作流</span>
+			</li>
+			<li>
+				<span class="img icon-library"><img src="img/library.png"/></span>
+				<span class="txt">文库</span>
+				<span class="titleTxt">文库</span>
+			</li>
+		</ul>
+	</div>
+	<div class="bodyWindow"></div>
+</div>
+
+<div class="bigModal" onclick="bigModal(event)">
+	<div class="modalBox" id="passwordChenge">
+		<div class="modalTitle">修改密码</div>
+		<div class="modalBody">
+			<div class="inputBox">
+				<span class="inputTitle">旧密码</span><input type="text" class="inputSize oldPassword" placeholder="旧密码" value="123456" />
+			</div>
+			<div class="inputBox">
+				<span class="inputTitle">新密码</span><input type="text" class="inputSize newPassword" placeholder="请输入6位以上的密码，中字母/数字组合" value="" />
+			</div>
+			<div class="inputBox">
+				<span class="inputTitle">重复新密码</span><input type="text" class="inputSize newAginPassword" placeholder="请重新输入新密码" value="" />
+			</div>
+		</div>
+		<div class="modalFooter">
+			<button type="button" class="modalBtn" onclick="passwordSure()">确定</button>
+		</div>
+	</div>
+	<div class="modalBox" id="userOut">
+		<div class="modalTitle">修改密码<span class="closeBox" onclick="closeBox()">×</span></div>
+		<div class="modalBody">
+			<div class="tip">您确定退出登录么？</div>
+		</div>
+		<div class="modalFooter">
+			<button type="button" class="modalBtn userOutBtn" onclick="userOutSure()">确定</button>
+			<button type="button" class="modalBtn" onclick="userOutCancel()">取消</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

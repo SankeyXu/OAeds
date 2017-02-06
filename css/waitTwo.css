@@ -1,0 +1,205 @@
+.textBodyColor{
+	background-color: #ffffff;
+	padding-top: 15px;
+    padding-bottom: 1px;
+}
+.text-center{
+	max-width: 1000px;
+}
+.lineBody{
+	padding: 35px 45px;
+    max-width: 920px;
+}
+#lookMore{
+    position: relative;
+    z-index: 99;
+}
+#lookShort{
+	 position: relative;
+}
+.lineBody div{
+	background-color: #f7f9ff;
+}
+.lineBody div.lineTextBox div{
+	background-color: #ffffff;
+}
+#lookMore div.lineTextBox div{
+	background-color: #f7f9ff;
+}
+#lookShort div.lineTextBox div{
+	background-color: #f7f9ff;
+}
+.lineBox {
+    position: relative;
+}
+.writeBox{
+	 margin: 35px 45px;
+    position: relative;
+    max-width: 830px;
+}
+span.moreBorder {
+    position: absolute;
+    left: 11px;
+    top: 17px;
+    z-index: 99;
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    border-left: 3px dotted #a4d06a;
+    background-color: #f7f9ff;
+}
+.writeBorder{
+	width: 100%;
+	height: 120px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 1px 1px #efefff;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    resize: none;
+    height: 90px;
+    padding: 10px;
+    word-break: break-all;
+}
+.oneLine {
+   	position: absolute;
+    top: -50px;
+    left: 126px;
+    height: 130px;
+    overflow: hidden;
+    z-index: 9;
+}
+.oneLine img{
+	height: 100%;
+	min-width: 1px;
+}
+.lineCard {
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+}
+.writeCard {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+#lookMore .cardTitle{
+	top: 0;
+}
+#lookShort .cardTitle{
+	top: 0;
+}
+.cardTitle{
+ 	width: 100px;
+    position: relative;
+    top: 30px;
+    margin-right: 14px;
+    text-align: right;
+    flex: none;
+}
+.lineSmallIco {
+    width: 40px;
+    position: relative;
+    flex: none;
+}
+#lookMore .lineSmallIco img{
+	top: 15px;
+}
+#lookShort .lineSmallIco img{
+	top: 15px;
+}
+.lineSmallIco img {
+    width: 25px;
+    position: absolute;
+    top: 30px;
+    z-index: 9;
+}
+.trangle {
+    height: 0;
+    width: 0;
+    border-width: 6px 8px 6px 0;
+    border-color: transparent #FFFFFF;
+    border-style: solid;
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+.lineTextBox {
+   	width: 200px;
+	flex-grow: 1;
+}
+.linePeopleTitle {
+    margin-bottom: 5px;
+}
+#lookMore .linePeople{
+	border: none;
+}
+#lookShort  .linePeople{
+	border: none;
+}
+.linePeople {
+    position: relative;
+    border: 1px solid #EEEEEE;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 15px 24px;
+    display: flex;
+}
+.lineImg {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.lineMessage {
+    padding-left: 10px;
+    width: 100%;
+}
+.lineMessageName {
+    font-size: 17px;
+    color: #323334;
+}
+.lineMessage p+p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.lineMessageStatus {
+    font-size: 14px;
+}
+.lineMessageTime {
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+    top: 23px;
+}
+.caidMessage{
+    text-align: center;
+    word-break: break-all;
+    color: #888888;
+}
+.kuohao{
+	color:#888888;
+}
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.form-group {
+    position: relative;
+    float: none;
+}
+.textBody{
+	margin: 35px 45px 0 45px;
+    max-width: 830px;
+}
+.form-group > label.control-label{
+	text-align: right;
+}
+.col-sm-10{
+	padding-right: 0px;
+}
+.body-second .content-second {
+    overflow: hidden;
+}

@@ -1,0 +1,77 @@
+.homeBox{
+	height: 100%;
+	overflow-y: hidden;
+}
+.homeHeader{
+	height: 100px;
+    line-height: 100px;
+    padding: 0 0 0 70px;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #eee;
+}
+.homePic{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -128px;
+    margin-left: -137px;
+}
+.row{
+	margin: 0;
+}
+.homeBody{
+	padding: 45px 60px;
+    overflow-y: auto;
+    height: 80%;
+}
+.tableRow{
+	padding: 0 60px;
+}
+.tableTitle{
+	overflow: hidden;
+    padding: 0 10px 23px 0;
+}
+.tableTitle span{
+	float: left;
+}
+.tableTitle span.more{
+	float: right;
+}
+#grid-waitThing{
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#grid-putThing{
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.k-grid tr td {
+    color: #111;
+}
+.k-header{
+    color: #999;
+}
+span.status{
+	color: #9da8cd;
+}
+span.statusYes{
+	color: #999999;
+}
+.tableTitlePic{
+	height: 16px;
+    margin-right: 5px;
+}
+.tableTitlePic img{
+    height: 100%;
+    width: 5px;
+}
+@media screen and (max-width: 1520px) {
+	.homeBody {
+	    padding: 45px 0px;
+	}
+	.tableRow {
+	    padding: 0 30px;
+	}
+}

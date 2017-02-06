@@ -1,0 +1,257 @@
+
+<link rel="stylesheet" type="text/css" href="css/work-line.css"/>
+<link rel="stylesheet" type="text/css" href="css/waitTwo.css"/>
+<script src="js/waitTwo.js" type="text/javascript" charset="utf-8"></script>
+        <div class="menu-third">
+            <div class="back-third pull-left"  onclick="historyBack()">
+                <img src="img/back.png" alt="返回">
+                <span> 返回</span>
+            </div>
+            <button class="btn btn-linePic-self pull-right" type="button">
+                流程图
+            </button>
+        </div>
+    	<!--startprint-->
+        <div class="content-third">
+        	<div class="workLineMax">
+        		 <div class="textBodyColor">
+		            <h4 class="text-center">公文审批申请</h4>
+		            <div class="textBody">
+		            	
+		            	<!--你的内嵌代码-->
+						<div class="view">
+							<div class="form-group">
+								<label class="col-sm-2 control-label label-zone-text">文本框</label>
+								<div class="col-sm-10">
+								  <input type="text" class="form-control txt-zone-placeholder txt-frm-component" placeholder="名字" name="Frm_WenBenKuang" data-comment="文本框">
+								  <p class="help-block"></p>
+								</div>
+							  </div>
+						</div>
+						<!--你的内嵌代码-->
+						
+		            </div>
+		            <div class="writeBox">
+		            	
+						<!--你的内嵌代码-->
+						<div class="form-horizontal" role="form">
+	                        <div class="form-group printClz" id="opinion" style="">
+	                            <label class="col-sm-2 control-label">签字意见</label>
+	                            <div class="col-sm-10">
+	                                <input type="hidden" name="type" id="typeBtn" value="">
+	                                <textarea class="writeBorder" name="" rows="" cols="" placeholder="此处输入签字意见" printholder="此处输入签字意见"></textarea>
+	                            </div>
+	                        </div>
+	                    </div>
+						<!--你的内嵌代码-->
+					
+		            </div>
+    		 	</div>
+	            <!--审批人流程-->
+	            <div class="lineBody">
+			        <div class="lineBox">
+						<div class="oneLine">
+							<img src="img/line.png">
+						</div>
+						
+						<!--1-->
+						<div class="lineCard">
+							<div class="cardTitle">
+								申请人部门领导审批
+							</div>
+							<div class="lineSmallIco">
+								<img src="img/wait.png">
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix">
+									<img class="lineImg  pull-left" src="img/20150712163410_kWGMf.thumb.224_0.jpeg">
+									<div class="lineMessage  pull-left">
+										<p class="lineMessageName">陈雷</p>
+										<p class="lineMessageStatus text-color-gray">审批中</p>
+									</div>
+									<div class="lineMessageTime"><span class="text-color-gray"></span>&nbsp;&nbsp;<span class="text-color-gray"></span></div>
+								</div>
+							</div>
+						</div>
+						<!--2-->
+						<div class="lineCard">
+							<div class="cardTitle">
+								申请人
+							</div>
+							<div class="lineSmallIco">
+								<img src="img/agree.png">
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix">
+									<img class="lineImg  pull-left" src="img/cb00091099ffbf09f4861f2bbb5dd993.jpg">
+									<div class="lineMessage  pull-left">
+										<p class="lineMessageName">王乐乐</p>
+										<p class="lineMessageStatus text-color-green">提交申请<span class="approveMessage"><span class="kuohao"> ( </span><span class="caidMessage">同意，按照规章制度办理</span><span class="kuohao"> ) </span></span></p>
+									</div>
+									<div class="lineMessageTime"><span class="text-color-gray">2016.08.17</span>&nbsp;&nbsp;<span class="text-color-gray">15:33</span></div>
+								</div>
+							</div>
+						</div>
+						<!--查看更多-->
+						<div id="lookMore" class="lineCard">
+							<div class="cardTitle"></div>
+							<div class="lineSmallIco">
+								<span class="moreBorder"></span>
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix" style="text-align: center;display: block;">
+									<span onclick="lookMoreItem(this)" style="color:#92a4e2;cursor: pointer;">查看更多<img style="position: absolute;top: 21px;margin-left: 5px;" src="img/arrow_down.png"></span>
+								</div>
+							</div>
+						</div>
+						<!--收起-->
+						<div id="lookShort" class="lineCard">
+							<div class="cardTitle"></div>
+							<div class="lineSmallIco">
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix" style="text-align: center;display: block;">
+									<span onclick="lookShortItem(this)" style="color:#92a4e2;cursor: pointer;">收起<img style="position: absolute;top: 21px;margin-left: 5px;" src="img/arrow_up.png"></span>
+								</div>
+							</div>
+						</div>
+						<!--3-->
+						<div class="lineCard">
+							<div class="cardTitle">
+								申请人
+							</div>
+							<div class="lineSmallIco">
+								<img src="img/agree.png">
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix">
+									<img class="lineImg  pull-left" src="img/cb00091099ffbf09f4861f2bbb5dd993.jpg">
+									<div class="lineMessage  pull-left">
+										<p class="lineMessageName">彭于晏？</p>
+										<p class="lineMessageStatus text-color-green">提交申请<span class="approveMessage"><span class="kuohao"> ( </span><span class="caidMessage">同意，按照规章制度办理</span><span class="kuohao"> ) </span></span></p>
+									</div>
+									<div class="lineMessageTime"><span class="text-color-gray">2016.08.17</span>&nbsp;&nbsp;<span class="text-color-gray">15:33</span></div>
+								</div>
+							</div>
+						</div>
+						<!--4-->
+						<div class="lineCard">
+							<div class="cardTitle">
+								申请人
+							</div>
+							<div class="lineSmallIco">
+								<img src="img/agree.png">
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix">
+									<img class="lineImg  pull-left" src="img/cb00091099ffbf09f4861f2bbb5dd993.jpg">
+									<div class="lineMessage  pull-left">
+										<p class="lineMessageName">张艺兴？</p>
+										<p class="lineMessageStatus text-color-green">提交申请<span class="approveMessage"><span class="kuohao"> ( </span><span class="caidMessage">同意，按照规章制度办理</span><span class="kuohao"> ) </span></span></p>
+									</div>
+									<div class="lineMessageTime"><span class="text-color-gray">2016.08.17</span>&nbsp;&nbsp;<span class="text-color-gray">15:33</span></div>
+								</div>
+							</div>
+						</div>
+						<!--5-->
+						<div class="lineCard">
+							<div class="cardTitle">
+								申请人
+							</div>
+							<div class="lineSmallIco">
+								<img src="img/agree.png">
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix">
+									<img class="lineImg  pull-left" src="img/cb00091099ffbf09f4861f2bbb5dd993.jpg">
+									<div class="lineMessage  pull-left">
+										<p class="lineMessageName">鹿晗？</p>
+										<p class="lineMessageStatus text-color-green">提交申请<span class="approveMessage"><span class="kuohao"> ( </span><span class="caidMessage">同意，按照规章制度办理</span><span class="kuohao"> ) </span></span></p>
+									</div>
+									<div class="lineMessageTime"><span class="text-color-gray">2016.08.17</span>&nbsp;&nbsp;<span class="text-color-gray">15:33</span></div>
+								</div>
+							</div>
+						</div>
+						<!--6-->
+						<div class="lineCard">
+							<div class="cardTitle">
+								申请人
+							</div>
+							<div class="lineSmallIco">
+								<img src="img/agree.png">
+							</div>
+							<div class=" lineTextBox">
+								<div class="linePeople  clearfix">
+									<img class="lineImg  pull-left" src="img/cb00091099ffbf09f4861f2bbb5dd993.jpg">
+									<div class="lineMessage  pull-left">
+										<p class="lineMessageName">吴亦凡？</p>
+										<p class="lineMessageStatus text-color-green">提交申请<span class="approveMessage"><span class="kuohao"> ( </span><span class="caidMessage">同意，按照规章制度办理</span><span class="kuohao"> ) </span></span></p>
+									</div>
+									<div class="lineMessageTime"><span class="text-color-gray">2016.08.17</span>&nbsp;&nbsp;<span class="text-color-gray">15:33</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+	            </div>
+        	</div>
+        </div>
+    	<!--endprint-->
+        <div class="bottom-third">
+            <button type="button" class="btn ">批准</button>
+            <button type="button" class="btn  btn-color-gray">撤回</button>
+            <button type="button" class="btn  btn-color-green">转交</button>
+            <button type="button" class="btn  btn-color-yellow" onclick="printItem()">打印</button>
+        </div>
+        
+        
+        
+        <!--打印（未封装的代码）-->
+        <script type="text/javascript">
+        	function printItem(){
+//      		打印前对html的操作
+        		var numTitleLength = $("div.cardTitle").length;
+        		var numTitle = 0;
+        		$("div.cardTitle").each(function(){
+        			if(numTitle == 0){
+        				
+        			}else{
+        				var num = numTitleLength-numTitle;
+        				var htmlTxt = $("<span class='numTitle'>"+ num +".</span>");
+        				$(this).prepend(htmlTxt);
+        			}
+        			numTitle += 1;
+        		})
+        		$("[printHolder]").each(function(i){
+        			console.log(i)
+        			$(this).attr("placeholder",$(this).val());
+        		})
+        		var disNone = $(":hidden");
+        		$(".bodyWindow div.oneLine").hide();
+        		$(".bodyWindow div.lineSmallIco").hide();
+        		$(".bodyWindow img.lineImg").hide();
+        		
+//      		打印操作
+				bdhtml=window.document.body.innerHTML;//获取当前页的html代码 
+				sprnstr="<!--startprint-->";//设置打印开始区域 
+				eprnstr="<!--endprint-->";//设置打印结束区域 
+				prnhtml=bdhtml.substring(bdhtml.indexOf(sprnstr)+18); //从开始代码向后取html 
+				prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr));//从结束代码向前取html 
+				$('body *').hide();
+				var aa=$(prnhtml).appendTo($('body'));
+				window.print();
+				
+//				打印后html操作
+				aa.remove();
+				$('body *').show();
+				$("[printHolder]").each(function(i){
+        			$(this).val($(this).attr("placeholder"));
+        			$(this).attr("placeholder",$(this).attr("printHolder"));
+        		})
+				$(".bodyWindow div.lineSmallIco").show();
+				$(".bodyWindow img.lineImg").show();
+				$(".bodyWindow div.oneLine").show();
+    			$("span.numTitle").remove();
+    			disNone.hide();
+        	}
+        </script>
+        

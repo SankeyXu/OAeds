@@ -1,0 +1,89 @@
+<link rel="stylesheet" type="text/css" href="css/work-line.css"/>
+<link rel="stylesheet" type="text/css" href="css/upload.css"/>
+<script src="js/upload.js"></script>
+<div class="navTitle clearfix">
+	<div class="back-third pull-left" onclick="historyBack()">
+        <img src="img/back.png" alt="返回">
+        <span class="navigateTxt"> 返回</span>
+    </div>
+</div>
+<div class="contentBody">
+	<div class="file noFloat">
+		<div class="title">
+			文件<span class="imp">*</span>
+		</div>
+		<div class="message">
+			<div>
+				<button  class="chooseBtn" >选择文件</button><input type="file">
+				<span class="fileRule">请上传小于10MB的DOC、PPT、TXT、PDF、XLS、jpg、png格式文件</span>
+			</div>
+			<div>
+				<span class="modFile"><img src="img/Zip.png"/>首页效果图.zip</span>
+			</div>
+		</div>
+	</div>
+	<div class="file clearFix">
+		<div class="title">
+			文件类型
+		</div>
+		<div class="message">
+			<div onclick="downTypeModel(event)">
+				<input type="text" name="typeSelect" id="typeSelect" placeholder="市场开拓  >  文书规范" />
+				<span class="down-icon"></span>
+			</div>
+			<div id="fileTapModel">
+				<div class="modelRow noFloat">
+					<div class="oneTypeTitle">运营管理</div>
+					<div class="twoTypeTitle"><span>运营目的</span>|<span>运营对象</span>|<span>运营服务</span></div>
+				</div>
+				<div class="modelRow noFloat">
+					<div class="oneTypeTitle">市场营销</div>
+					<div class="twoTypeTitle">
+						<span>客户面向</span>|<span>产品定位</span>|<span>搭建客户关系</span>|<span>市场调研</span>|<span>选择市场</span>|<span>市场竞争</span>|<span>市场守则</span>|<span>如何引导市场</span>|<span>如何适应市场</span>
+						
+					</div>
+				</div>
+				<div class="modelRow noFloat">
+					<div class="oneTypeTitle">人力资源</div>
+					<div class="twoTypeTitle">
+						<span>人才选拔</span>|<span>人才库划分</span>|<span>分管系统</span>|<span>凝聚力的产生</span>|<span>人员流动</span>
+					</div>
+				</div>
+				<div class="modelRow noFloat">
+					<div class="oneTypeTitle">运营管理</div>
+					<div class="twoTypeTitle"><span>运营目的</span>|<span>运营对象</span>|<span>运营服务</span></div>
+				</div>
+				<div class="modelRow noFloat">
+					<div class="oneTypeTitle">市场营销</div>
+					<div class="twoTypeTitle">
+						<span>客户面向</span>|<span>产品定位</span>|<span>搭建客户关系</span>|<span>市场调研</span>|<span>选择市场</span>|<span>市场竞争</span>|<span>市场守则</span>|<span>如何引导市场</span>|<span>如何适应市场</span>
+						
+					</div>
+				</div>
+				<div class="modelRow noFloat">
+					<div class="oneTypeTitle">人力资源</div>
+					<div class="twoTypeTitle">
+						<span>人才选拔</span>|<span>人才库划分</span>|<span>分管系统</span>|<span>凝聚力的产生</span>|<span>人员流动</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="file noFloat">
+		<div class="title">
+			文件摘要
+		</div>
+		<div class="message">
+			<textarea name="fileImport" class="fileImport" rows="" cols=""></textarea>
+		</div>
+	</div>
+	<div class="file noFloat">
+		<div class="title">
+		</div>
+		<div class="message">
+			<button class="Btn successBtn" onclick="issueBtnItem()">发布</button>
+			<button class="Btn saveBtn" onclick="saveBtnItem()">保存</button>
+			<button class="Btn" onclick="cancelBtnItem()">取消</button>
+		</div>
+	</div>
+</div>

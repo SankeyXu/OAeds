@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>普通登录</title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/loginTT.css" />
+		
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/loginTT.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="loginBox ">
+			<div class="nav"><span onclick="navTogger(this)" class="codeLogin">二维码登录</span><span class="psdLogin active" onclick="navTogger(this)">密码登录</span></div>
+			<div class="picCodeBox navBox">
+				<div class="codeIco">
+					<img src="img/index_pic_01.png"/>
+				</div>
+				<div class="textFooter">
+					<span>请用XXX手机端扫描二维码登录</span>&nbsp;
+					<span onclick="refresh(this)" class="refresh">
+						<span class="iconfont icon-htmal5icon23 refreshIco" ></span>
+						刷新
+					</span>
+					
+				</div>
+			</div>
+			<div class="passwordBox navBox">
+				<div class="telephone ">
+					<span class="inputTxt">
+						<img src="img/lALOZAFaFCEh_33_33.png"/>
+					</span>
+					<input type="text" class="inputLong" name="username" id="username" value="" placeholder="请输入用户名" onkeyup="nameTest()"/>
+				</div>
+				<div class="password">
+					<span class="inputTxt">
+						<img src="img/lALOZAFaFSMd_29_35.png"/>
+					</span>
+					<input type="text" class="inputLong" name="password" id="password" value="" placeholder="请输入密码"/>
+				</div>
+				<div class="Btn">
+					<button type="button" class="loginBtn" onclick="submitItem()">登录</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

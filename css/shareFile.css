@@ -1,0 +1,74 @@
+.operation{
+	color: #f0c984;
+	border-bottom: 1px solid;
+	cursor: pointer;
+	border-color: #f0c984;
+}
+.operation-green{
+	margin-right: 30px;
+	color: #9fd36e;
+	border-color: #9fd36e;
+}
+.operation-yellow{
+	margin-right: 30px;
+	color: #f0c984;
+	border-color: #f0c984;
+}
+.operation-red{
+	margin-right: 30px;
+	color: #e7696c;
+	border-color: #e7696c;
+}
+.operation-gray{
+	margin-right: 30px;
+	color: #9eafe7;
+	border-color: #9eafe7;
+}
+.content-second .back-third {
+    margin-left: 15px;
+}
+.k-grid .k-grid-header .k-header{
+	background: #FCFCFC;
+}
+.listFooter{
+	margin-top: 38px;
+    height: 40px;
+    width: 375px;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 0;
+    cursor: pointer;
+}
+.lastPager {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 80px;
+    border-right: 1px solid #CCCCCC;
+    font-size: 14px;
+}
+.nextPager {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 80px;
+    font-size: 14px;
+}
+.pagerNum.pagerActive {
+    background-color: #a4b7f1;
+}
+.pagerNum {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 30px;
+    border-right: 1px solid #CCCCCC;
+    font-size: 14px;
+}

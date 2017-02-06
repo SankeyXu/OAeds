@@ -1,0 +1,49 @@
+<link rel="stylesheet" type="text/css" href="css/home.css"/>
+<script src="js/home.js" type="text/javascript" charset="utf-8"></script>
+<div class="homeBox">
+	<div class="homeHeader">
+		<img src="img/hello.png"/>
+	</div>
+	<div class="homeBody">
+		<img class="homePic" src="img/empty_pic.png"/>   
+                                                         <!--
+                                                         	作者：879838334@qq.com
+                                                         	时间：2017-01-22
+                                                         	描述：此处为首页空白时显示，取消hidden
+                                                         -->
+		<div class="row hidden">
+                                <!--
+                                	作者：879838334@qq.com
+                                	时间：2017-01-22
+                                	描述：空白首页时，hidden隐藏条目
+                                -->
+			<div class="col-sm-12 col-md-12 col-lg-6 waitThing tableRow">
+				<div class="tableTitle">
+					<span class="tableTitlePic"><img src="img/classify.png"/></span>
+					<span>待办事宜</span>
+					<span class="more">更多+</span>
+				</div>
+				<div id="grid-waitThing"></div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 putThing tableRow">
+				<div class="tableTitle">
+					<span class="tableTitlePic"><img src="img/classify.png"/></span>
+					<span>我发起的</span>
+					<span class="more">更多+</span>
+				</div>
+				<div id="grid-putThing"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<template id="kendoTemplate_itemStatus" type="text/x-kendo-template">
+	#if(status == "已审批"){#
+		<span class="statusYes">
+			#: status#
+		</span>
+	#}else{#
+		<span class="status">
+			#: status#
+		</span>
+	#}#
+</template>

@@ -1,0 +1,32 @@
+.k-block, .k-draghandle, .k-inline-block, .k-widget{
+    border-color: #ccc;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.k-filter-row th, .k-grid-header th.k-header,div.k-grid-footer, div.k-grid-header,.k-grid td{
+    border-color: #ccc;
+    height: 50px;
+    vertical-align: middle;
+}
+.k-filter-row th, .k-grid-header th.k-header,.k-grid td{
+    border-left-width: 0;
+    border-bottom-width:1px;
+}
+.k-grid-header:first-child th.k-header:first-child, .k-rtl thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:first-child{
+    border-radius: 0;
+}
+.k-editor, .k-grid, .k-menu, .k-scheduler{
+    border-radius: 0;
+    font-size: 15px;
+    border-bottom-width: 0;
+    border-top-width: 0;
+}
+.k-grid .k-grouping-header, .k-grid-header, .k-grid-header-wrap, .k-grouping-header .k-group-indicator, .k-header, .k-pager-wrap, .k-pager-wrap .k-link, .k-pager-wrap .k-textbox,.k-alt{
+    background: #fff;
+}
+.k-filter-row th, .k-grid-header th.k-header{
+    font-weight: 500;
+}
+.k-grid tr td{
+    color: #999;
+}
