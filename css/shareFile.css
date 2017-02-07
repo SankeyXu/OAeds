@@ -5,6 +5,9 @@
 	border-color: #f0c984;
 	float: right;
 }
+.operation-noFloat{
+	float: none;
+}
 .operation-green{
 	margin-right: 30px;
 	color: #9fd36e;
