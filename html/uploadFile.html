@@ -72,8 +72,10 @@
 	#}#
 </script>
 <script id="kendoTemplate_itemOperation" type="text/x-kendo-template">
-	<a href="javaScript(0)" class="operation operation-green" >发布</a>
-	<a href="javaScript(0)" class="operation operation-yellow" >下载</a>
-	<a href="javaScript(0)" class="operation operation-red" >删除</a>
 	<a href="javaScript(0)" class="operation operation-gray" >修改</a>
+	<a href="javaScript(0)" class="operation operation-red" >删除</a>
+	<a href="javaScript(0)" class="operation operation-yellow" >下载</a>
+	#if(status == 0){#
+	<a href="javaScript(0)" class="operation operation-green" >发布</a>
+	#}#
 </script>
