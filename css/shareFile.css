@@ -3,6 +3,7 @@
 	border-bottom: 1px solid;
 	cursor: pointer;
 	border-color: #f0c984;
+	float: right;
 }
 .operation-green{
 	margin-right: 30px;
